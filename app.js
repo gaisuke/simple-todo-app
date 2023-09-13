@@ -20,3 +20,11 @@ document.querySelector('#create-todo-btn').onclick = function(){
         }
     }
 }
+
+document.querySelector('.pindah-tab').onclick = function(){
+    var element2 = document.getElementById("tab2")
+    element2.classList.remove("hidden");
+
+    var element1 = document.getElementById("tab1")
+    element1.classList.add("hidden")
+}
